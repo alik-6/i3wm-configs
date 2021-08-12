@@ -4,8 +4,6 @@
   "window.menuBarVisibility": "hidden",
   "editor.fontLigatures": true,
   "editor.fontFamily": "fira code",
-  "color-highlight.markerType": "underline", 
-  "color-highlight.markRuler": false, 
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
