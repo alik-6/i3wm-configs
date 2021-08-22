@@ -37,9 +37,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${PWD##*/} > '
+    PS1='[\e[0;32m${PWD/*\//}\e[m]:- '
 else
-    PS1='${PWD##*/} > '
+    PS1='[${PWD##*/}]:- '
 fi
 unset color_prompt force_color_prompt
 
