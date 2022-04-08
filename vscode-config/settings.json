@@ -1,37 +1,105 @@
 {
-  "telemetry.enableTelemetry": false,
-  "files.autoSave": "afterDelay",
-  "window.menuBarVisibility": "hidden",
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "fira code",
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 3,
-  "editor.letterSpacing": 0.5,
-  "editor.lineHeight": 22,
-  "editor.fontSize": 15,
-  "terminal.integrated.fontSize": 14,
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "workbench.editor.tabSizing": "fit",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Subliminal Next",
-  "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
-  "editor.renderIndentGuides": false,
-  "editor.renderLineHighlight": "none",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true, 
-  "editor.folding": false,
-  "editor.occurrencesHighlight": false,
-  "editor.glyphMargin": false, 
-  "explorer.openEditors.visible": 0,
-  "workbench.activityBar.visible": false, 
-  "workbench.editor.showIcons": false,
-  "workbench.editor.tabCloseButton": "right",
-  "workbench.statusBar.visible": false,
-  "workbench.colorCustomizations": {
-    "tab.activeBorder": "#0000",
-  },
-  "window.zoomLevel": 3
+    // Workbench
+    "workbench.enableExperiments": false,
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.wrapTabs":true,
+    "workbench.list.smoothScrolling": true,
+
+
+    
+    // Editor
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.cursorStyle": "underline",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.folding": false,
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+
+
+    // Files
+    "files.autoSave": "afterDelay",
+
+
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+     
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-Nologo"]
+        }
+    },
+
+
+    // Telemetry
+    "telemetry.telemetryLevel": "off",
+
+
+    // Git
+    "git.autofetch": true,
+
+
+    // Security
+    "security.workspace.trust.untrustedFiles": "open",
+
+    
+    // Javascript
+    "javascript.suggest.completeFunctionCalls": true,
+
+
+    // Python - ms-python.python
+    "python.analysis.completeFunctionParens": true,
+
+
+    // Thunder Client - rangav.vscode-thunder-client
+    "thunder-client.codeSnippetLanguage": "js-fetch",
+
+
+    // Todo Highligh - wayou.vscode-todo-highlight
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+
+
+    // Jupyter Notebook - ms-toolsai.jupyter
+    "jupyter.askForKernelRestart": false,
+
+
+    // Live server - ritwickdey.LiveServer
+    "liveServer.settings.donotShowInfoMsg": true,
+
+
+    // Volar - johnsoncodehk.volar
+    "volar.icon.finder": true,
+
+
+    // Rust Syntax - dustypomerleau.rust-syntax
+    "[rust]": {
+        "editor.semanticHighlighting.enabled": false
+    },
+    "window.zoomLevel": -1,
+    "editor.fontSize": 18,
+    "tabnine.experimentalAutoImports": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "johnsoncodehk.volar"
+    }
+    
+    
 }
